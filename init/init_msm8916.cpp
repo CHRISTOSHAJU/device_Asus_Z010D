@@ -42,6 +42,7 @@
 #include "property_service.h"
 
 using android::base::GetProperty;
+using android::init::property_set;
 
 #define RAW_ID_PATH     "/sys/devices/soc0/raw_id"
 #define BUF_SIZE         64
