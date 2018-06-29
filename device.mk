@@ -20,9 +20,6 @@ $(call inherit-product-if-exists, vendor/asus/Z010DD/Z010DD-vendor.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += device/asus/Z010D/overlay
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
